@@ -47,7 +47,7 @@ function App() {
 
       <div className='header'>
         <div className='d-flex'>
-        <h2 className='sub-title'>  Overview - Today</h2>
+        <h3 className='sub-title'>  Overview - Today</h3>
         </div>
         <section className='grid'>
         <div className='row-col'>

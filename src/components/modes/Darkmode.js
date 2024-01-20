@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 
 export default function Darkmode() {
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
 
   useEffect(() => {
     const body = document.body;
@@ -12,8 +12,6 @@ export default function Darkmode() {
     if(isDarkMode) {
         body.classList.add('dark-mode')
         bgMode.classList.add('dark-bg')
-        
-     
     }else {
         body.classList.remove('dark-mode')
         bgMode.classList.remove('dark-bg')
